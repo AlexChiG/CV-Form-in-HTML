@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formular CV</title>
+</head>
+
+<body>
+  <h1>Formular CV</h1>
+  <form action="submit_cv.php" method="POST" enctype="multipart/form-data">
+
+    <!-- Informatii personale -->
+    <h2>Informatii personale</h2>
+    <label for="nume">Nume*:</label>
+    <input type="text" id="nume" name="nume" required><br>
+    <label for="prenume">Prenume*:</label>
+    <input type="text" id="prenume" name="prenume" required><br>
+    <label for="text">Adresa de email*:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="text">Adresa*:</label>
+    <input type="adresa" id="adresa" name="adresa" required><br>
+    <label for="telefon">Telefon:</label>
+    <input type="tel" id="telefon" name="telefon"><br>
+
+    <!-- Educatie -->
+    <h2>Educatie</h2>
+    <label for="liceu">Liceu:</label>
+    <input type="text" id="liceu" name="liceu"><br>
+    <label for="facultate">Facultate:</label>
+    <input type="text" id="facultate" name="facultate"><br>
+    <label for="master">Master:</label>
+    <input type="text" id="master" name="master"><br>
+
+    <!-- Experienta de lucru -->
+    <h2>Experienta de lucru</h2>
+    <label for="companie">Companie:</label>
+    <input type="text" id="companie" name="companie"><br>
+    <label for="pozitie">Pozitie:</label>
+    <input type="text" id="pozitie" name="pozitie"><br>
+    <label for="perioada">Perioada:</label>
+    <input type="text" id="perioada" name="perioada"><br>
+
+    <!-- Butoane -->
+    <button type="submit">OK</button>
+    <button type="reset">Clear</button>
+  </form>
+</body>
+
+</html>
