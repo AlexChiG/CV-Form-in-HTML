@@ -38,7 +38,7 @@ Pentru a accesa acest formular trebuie mai întâi să descărcați și să inst
 
 După aceea, trebuie să porniți primele 2 module Apache și MySQL astfel:
 
-![](RackMultipart20230413-1-aahllk_html_c94b1026ca518c13.png)
+![](XAMPP.png)
 
 Apoi navigați la folderul htdocs din folderul dvs. de instalare XAMPP și adăugați toate fișierele din acest depozit, în afară de acest fișier README.
 
