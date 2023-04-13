@@ -16,7 +16,7 @@ To access this form you first have to download and install XAMPP [here](https://
 
 After that you must start the first 2 modules Apache and MySQL like this:
 
-![](RackMultipart20230413-1-aahllk_html_c94b1026ca518c13.png)
+![](XAMPP.png)
 
 Next navigate to the htdocs folder inside your XAMPP installation folder and add all files from this repository besides this README file.
 
